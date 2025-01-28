@@ -1,0 +1,6 @@
+framework module MiniAppLibrary {
+  umbrella header "MiniAppLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

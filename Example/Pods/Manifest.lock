@@ -1,0 +1,16 @@
+PODS:
+  - MiniAppLibrary (0.1.0)
+
+DEPENDENCIES:
+  - MiniAppLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  MiniAppLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MiniAppLibrary: 6d7d0b44a3c06b9d718c40da4e0ced9640e719c6
+
+PODFILE CHECKSUM: 92b1e8d863f516dc703685db4793b572851669c4
+
+COCOAPODS: 1.16.2

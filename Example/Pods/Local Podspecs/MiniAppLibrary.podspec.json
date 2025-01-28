@@ -1,0 +1,24 @@
+{
+  "name": "MiniAppLibrary",
+  "version": "0.1.0",
+  "summary": "This Library work as bridge between super app and mini apps whick contain interfaces to pass data",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/asmaa4050/MiniAppLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "asmaa4050": "asmaaelkholy6@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/asmaa4050/MiniAppLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "swift_versions": "5.0",
+  "source_files": "MiniAppLibrary/Classes/**/*",
+  "swift_version": "5.0"
+}
