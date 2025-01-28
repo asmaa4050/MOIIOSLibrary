@@ -6,3 +6,10 @@
 //
 
 import Foundation
+public protocol IMiniAppData {
+    func getUserName() -> GeneralResponse<String>
+    func getUserEmail() -> GeneralResponse<String>
+    func getIsEmployee() -> GeneralResponse<Bool>
+    func captureImage() -> GeneralResponse<String>
+    func pickImage() -> GeneralResponse<String>
+}

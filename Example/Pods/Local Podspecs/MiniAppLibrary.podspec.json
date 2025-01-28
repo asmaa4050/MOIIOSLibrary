@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "This Library work as bridge between super app and mini apps whick contain interfaces to pass data",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/asmaa4050/MiniAppLibrary",
+  "homepage": "https://github.com/asmaa4050/MOIIOSLibrary.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"

@@ -12,7 +12,7 @@
 		39B4D08323FA2AA8EB581286AAF1ABA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		43F4DB277D2D57AFECA28D106BF60DCC /* Pods-MiniAppLibrary_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3928508041AC4A598EDF0666CC5A1F1E /* Pods-MiniAppLibrary_Tests-dummy.m */; };
 		4E57BE708925C998C061945E947D52F8 /* IMiniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD5C973C2D43406B969A8837F0ED291 /* IMiniApp.swift */; };
-		5295D5332D48EB16004F5553 /* IMiniAppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5295D5322D48EB16004F5553 /* IMiniAppData.swift */; };
+		5295D5372D48EF32004F5553 /* IMiniAppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5295D5362D48EF32004F5553 /* IMiniAppData.swift */; };
 		54CD60359469BED113C939EDA3306780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		798846E972A499ABAB60DBDFEBAB85ED /* Pods-MiniAppLibrary_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BE5B5D68F8BB5DCCE5D036DA2955228 /* Pods-MiniAppLibrary_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		99E6D4D409A570E9B26D0F564A559153 /* Pods-MiniAppLibrary_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0CEB1E2C1AEA7D24DDDA178F5006913 /* Pods-MiniAppLibrary_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,7 +48,7 @@
 		3FD5C973C2D43406B969A8837F0ED291 /* IMiniApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IMiniApp.swift; path = MiniAppLibrary/Classes/IMiniApp.swift; sourceTree = "<group>"; };
 		4BE5B5D68F8BB5DCCE5D036DA2955228 /* Pods-MiniAppLibrary_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MiniAppLibrary_Example-umbrella.h"; sourceTree = "<group>"; };
 		4D79D427D7B283D959707FF111C6C791 /* Pods-MiniAppLibrary_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiniAppLibrary_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5295D5322D48EB16004F5553 /* IMiniAppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMiniAppData.swift; sourceTree = "<group>"; };
+		5295D5362D48EF32004F5553 /* IMiniAppData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IMiniAppData.swift; path = MiniAppLibrary/Classes/IMiniAppData.swift; sourceTree = "<group>"; };
 		52AEFF891D5444059D08BA91417D7DCE /* Pods-MiniAppLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MiniAppLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
 		54C788575E8DC029E196039FD5DADFDC /* Pods_MiniAppLibrary_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiniAppLibrary_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75AED56D0D72AE499B006AAAFF34B217 /* Pods-MiniAppLibrary_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MiniAppLibrary_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -140,11 +140,11 @@
 		A7B5CE2023EEE3D6E3C6789498FA8606 /* MiniAppLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				5295D5322D48EB16004F5553 /* IMiniAppData.swift */,
 				C8020A2D26FC39E44264B59B067CF169 /* GeneralResponse.swift */,
 				3FD5C973C2D43406B969A8837F0ED291 /* IMiniApp.swift */,
 				C47E4D50D483A20A3BB801733259E598 /* Pod */,
 				AAD7477C1C6B758B4205B21D0E57961C /* Support Files */,
+				5295D5362D48EF32004F5553 /* IMiniAppData.swift */,
 			);
 			name = MiniAppLibrary;
 			path = ../..;
@@ -375,7 +375,7 @@
 			files = (
 				19C8CCE3A2A2310987D05EC5E92486D6 /* GeneralResponse.swift in Sources */,
 				4E57BE708925C998C061945E947D52F8 /* IMiniApp.swift in Sources */,
-				5295D5332D48EB16004F5553 /* IMiniAppData.swift in Sources */,
+				5295D5372D48EF32004F5553 /* IMiniAppData.swift in Sources */,
 				DF99DC163E0B03E1778A8E1CDB892ED5 /* MiniAppLibrary-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

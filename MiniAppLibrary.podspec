@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MiniAppLibrary'
   s.version          = '0.1.0'
-  s.summary          = 'This Library work as bridge between super app and mini apps whick contain interfaces to pass data'
+  s.summary          = 'A library providing interfaces for seamless data exchange between a super app and integrated mini apps.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,11 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'This library contains interfaces designed to facilitate data exchange between a super app and any mini app integrated within it. These interfaces enable seamless communication, allowing the super app to pass data to the mini app and receive data back, ensuring smooth integration and interaction between the two components.'
 
-  s.homepage         = 'https://github.com/asmaa4050/MiniAppLibrary'
+  s.homepage         = 'https://github.com/asmaa4050/MOIIOSLibrary.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'asmaa4050' => 'asmaaelkholy6@gmail.com' }
